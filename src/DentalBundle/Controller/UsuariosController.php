@@ -16,7 +16,7 @@ class UsuariosController extends Controller
 {
     /**
      * Obtener Obtener usuarios
-     * @Rest\Get("/usuarios")
+     * @Rest\Post("/usuarios")
      * @ApiDoc(
      *   resource = true,
      *   description = "metodo para obtener usuarios",
@@ -41,6 +41,6 @@ class UsuariosController extends Controller
         $repoUsuario = $em->getRepository("DentalBundle:usuarios");
         $usuario = $repoUsuario->findAll();
 //        $servicio = $this->get('sglabmedbundle.estaciones_trabajo_service');
-        return $usuario;
+        return array("success"=>true , "msg"=>"proceso ejecutado correctamente" , "data"=>$usuario);
     }
 }
