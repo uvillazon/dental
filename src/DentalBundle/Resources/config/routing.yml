@@ -1,0 +1,4 @@
+usuarios:
+    type:     rest
+    prefix:   /usuarios
+    resource: DentalBundle\Controller\UsuariosController

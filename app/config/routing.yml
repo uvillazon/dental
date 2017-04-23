@@ -1,6 +1,7 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+dental-backend:
+    resource: "@DentalBundle/Resources/config/routing.yml"
+    prefix:   /backend
+
 
 NelmioApiDocBundle:
     resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
