@@ -22,11 +22,11 @@
         "symfony/swiftmailer-bundle": "~2.3,>=2.3.10",
         "symfony/symfony": "2.8.*",
         "twig/twig": "^1.0||^2.0",
+        "nelmio/api-doc-bundle": "^2.12",
         "friendsofsymfony/rest-bundle": "^1.7",
         "jms/serializer-bundle": "^1.1",
-        "nelmio/api-doc-bundle": "^2.12",
-        "ddeboer/data-import": "@stable",
-        "firebase/php-jwt": "dev-master"
+        "firebase/php-jwt": "^3.0",
+        "phpoffice/phpexcel": "^1.8"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",
